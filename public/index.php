@@ -14,9 +14,9 @@ $router = new Router($_SERVER["REQUEST_URI"]);
 // in the function 
 $router->addRoute("/api",  "AppController", "GET", ["function"=> "getApi"]);
 
-$router->addRoute("/login",  "UserController", "POST", ["function"=>"login");
+$router->addRoute("/login",  "UserController", "POST", ["function"=>"login"]);
 
-$router->addRoute("/logout",  "AppController", "GET", ["function"=>"logout");
+$router->addRoute("/logout",  "AppController", "GET", ["function"=>"logout"]);
 
 
 
