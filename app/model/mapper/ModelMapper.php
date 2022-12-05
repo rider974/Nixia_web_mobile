@@ -8,7 +8,7 @@ abstract class ModelMapper {
 
     public function __construct()
     {
-        $this->db = new PDO("mysql:host=localhost;dbname=easy_follow","userEasyFollow","mdpEasyFollow974!?*");
+        $this->db = new PDO("mysql:host=localhost;dbname=nixia_app_mobile","userNixiaClim","mdpNixiaClim974!?*");
     } 
 
     // CRUD
